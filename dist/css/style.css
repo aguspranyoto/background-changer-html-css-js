@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after,
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.788);
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    background-color: #fff;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+}
+
+.container .btn-warna {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.container .btn-warna .blue {
+    background-color: blue;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+.container .btn-warna .red {
+    background-color: red;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+.container .btn-warna .green {
+    background-color: green;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+.container .btn-warna .yellow {
+    background-color: yellow;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
