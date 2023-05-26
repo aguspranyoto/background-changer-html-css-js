@@ -25,6 +25,11 @@ body {
     width: 400px;
     height: 100px;
     align-items: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .container .btn-warna {
@@ -35,7 +40,7 @@ body {
 
 .container .btn-warna .pink {
     background-color: pink;
-    border: 1px solid black;
+    border: 1px solid grey;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -47,7 +52,7 @@ body {
 }
 .container .btn-warna .cadetblue {
     background-color: cadetblue;
-    border: 1px solid black;
+    border: 1px solid grey;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -59,7 +64,7 @@ body {
 }
 .container .btn-warna .wheat {
     background-color: wheat;
-    border: 1px solid black;
+    border: 1px solid grey;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -71,7 +76,7 @@ body {
 }
 .container .btn-warna .cornflowerblue {
     background-color: cornflowerblue;
-    border: 1px solid black;
+    border: 1px solid grey;
     width: 50px;
     height: 50px;
     border-radius: 50%;
