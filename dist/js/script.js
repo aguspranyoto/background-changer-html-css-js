@@ -1,18 +1,18 @@
 const body = document.querySelector(".body");
-const btnBlue = document.querySelector(".blue");
-const btnRed = document.querySelector(".red");
-const btnGreen = document.querySelector(".green");
-const btnYellow = document.querySelector(".yellow");
+const btnPink = document.querySelector(".pink");
+const btnCadetBlue = document.querySelector(".cadetblue");
+const btnWheat = document.querySelector(".wheat");
+const btnCornFlowerBlue = document.querySelector(".cornflowerblue");
 
-btnBlue.addEventListener("click", () => {
-    body.style.backgroundColor = "blue";
+btnPink.addEventListener("click", () => {
+    body.style.backgroundColor = "pink";
 });
-btnRed.addEventListener("click", () => {
-    body.style.backgroundColor = "red";
+btnCadetBlue.addEventListener("click", () => {
+    body.style.backgroundColor = "cadetblue";
 });
-btnGreen.addEventListener("click", () => {
-    body.style.backgroundColor = "green";
+btnWheat.addEventListener("click", () => {
+    body.style.backgroundColor = "wheat";
 });
-btnYellow.addEventListener("click", () => {
-    body.style.backgroundColor = "yellow";
+btnCornFlowerBlue.addEventListener("click", () => {
+    body.style.backgroundColor = "cornflowerblue";
 });
